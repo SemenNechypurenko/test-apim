@@ -9,7 +9,7 @@ import static apim.TestSpringBootAppForApimApplication.counter;
 @RestController
 @RequestMapping("apim")
 @Slf4j
-public class SimpleController {
+public class SimpleTestAPIMController {
 
   @GetMapping()
   public String index() {
